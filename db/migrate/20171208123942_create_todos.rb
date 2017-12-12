@@ -3,6 +3,7 @@ class CreateTodos < ActiveRecord::Migration[5.0]
     create_table :todos do |t|
       t.text :name
       t.text :description
+    
     end
   end
 end

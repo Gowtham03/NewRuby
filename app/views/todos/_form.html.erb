@@ -1,6 +1,6 @@
 
 <% if @todo.errors.any? %>
-  <h2>the following error is prevented the todo being saved</h2>
+  <h2>The following error is prevented the todo being saved</h2>
   <ul>
     <% @todo.errors.full_messages.each do |msg| %>
     <li><%= msg %></li>
@@ -21,4 +21,4 @@
   </p>
 
 <% end %>
-<%= link_to "Back to todos listing",todos_path %>
+<%= link_to "Todos listing",todos_path %>
